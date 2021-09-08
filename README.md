@@ -25,7 +25,7 @@ Directions from Los Angeles  to  maryville
  my friend ask me about the local food items and i recomanded some of my favorite to experience him and he has done and feel good of those items and enjoyed the food 
 
 |Items|Location|Cost|
-|...|...|...|  
+|---|---|---|  
 |Cheese rolls|Downtown maryville|23$|
 |Bread|St.Jhones|4.34$|
 |Chicken nuggets|Kansas|12$|
