@@ -1,4 +1,4 @@
-# srinadhponugoti
+# Srinadh Ponugoti
 ### Northwest missouri state university
 
 Northwest missouri state university is a **beautiful** campus and having a good **weather**
@@ -21,7 +21,7 @@ Directions from Los Angeles  to  maryville
 **[To Know about me](AboutMe.md)**
 
 ***
-### recomanding to my friend to try some items
+### Recomanding to my friend to try some items
  my friend ask me about the local food items and i recomanded some of my favorite to experience him and he has done and feel good of those items and enjoyed the food 
 
 |Items|Location|Cost|
