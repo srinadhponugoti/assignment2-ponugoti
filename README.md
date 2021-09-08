@@ -42,19 +42,22 @@ Directions from Los Angeles  to  maryville
 >
 >A version of depth-first search was investigated in the 19th century by French mathematician Charles Pierre Trémaux as a strategy for solving mazes.
 >
->**Properties**
+>**Properties:**
+>
 >The time and space analysis of DFS differs according to its application area. In theoretical computer science, DFS is typically used to traverse an entire graph, and takes time {\displaystyle O(|V|+|E|)}O(|V| + |E|), where |V| is the number of vertices and |E| the number of edges. This is linear in the size of the graph. In these applications it also uses space {\displaystyle O(|V|)}O(|V|) in the worst case to store the stack of vertices on the current search path as well as the set of already-visited vertices. Thus, in this setting, the time and space bounds are the same as for breadth-first search and the choice of which of these two algorithms to use depends less on their complexity and more on the different properties of the vertex orderings the two algorithms produce.
 >
 >For applications of DFS in relation to specific domains, such as searching for solutions in artificial intelligence or web-crawling, the graph to be traversed is often either too large to visit in its entirety or infinite (DFS may suffer from non-termination). In such cases, search is only performed to a limited depth; due to limited resources, such as memory or disk space, one typically does not use data structures to keep track of the set of all previously visited vertices. When search is performed to a limited depth, the time is still linear in terms of the number of expanded vertices and edges (although this number is not the same as the size of the entire graph because some vertices may be searched more than once and others not at all) but the space complexity of this variant of DFS is only proportional to the depth limit, and as a result, is much smaller than the space needed for searching to the same depth using breadth-first search. For such applications, DFS also lends itself much better to heuristic methods for choosing a likely-looking branch. When an appropriate depth limit is not known a priori, iterative deepening depth-first search applies DFS repeatedly with a sequence of increasing limits. In the artificial intelligence mode of analysis, with a branching factor greater than one, iterative deepening increases the running time by only a constant factor over the case in which the correct depth limit is known due to the geometric growth of the number of nodes per level.
 >
 >DFS may also be used to collect a sample of graph nodes. However, incomplete DFS, similarly to incomplete BFS, is biased towards nodes of high degree.
 >
->**Output of a depth-first search**
+>**Output of a depth-first search:**
+>
 >A convenient description of a depth-first search of a graph is in terms of a spanning tree of the vertices reached during the search. Based on this spanning tree, the edges of the original graph can be divided into three classes: forward edges, which point from a node of the tree to one of its descendants, back edges, which point from a node to one of its ancestors, and cross edges, which do neither. Sometimes tree edges, edges which belong to the spanning tree itself, are classified separately from forward edges. If the original graph is undirected then all of its edges are tree edges or back edges.
 
 For more Information <https://en.wikipedia.org/wiki/Depth-first_search>
 
 **Classification of edges of a graph**
+
 We can classify the edges using the entry and exit time of the end nodes u and v of the edges (u,v). These classifications are often used for problems like finding bridges and finding articulation points.
 
 We perform a DFS and classify the encountered edges using the following rules:
@@ -70,6 +73,7 @@ If v is visited before u:
 Note: Forward edges and cross edges only exist in directed graphs.
 
 **Implementation**
+
 ```
 vector<vector<int>> adj; // graph represented as an adjacency list
 int n; // number of vertices
