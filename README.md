@@ -13,9 +13,9 @@ Directions from Los Angeles  to  maryville
 3. At maryville you will get the northwest missouri.
 * Go to the store
 * buy a laptop
-        * headset
-        * pendrive
-        * bag
+ * Headset
+ * Pendrive
+ * Bag
 * come to northwest university 
 
 
